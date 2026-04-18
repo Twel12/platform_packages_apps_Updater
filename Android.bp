@@ -1,9 +1,10 @@
 android_app {
     name: "Updater",
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.kt"],
     resource_dirs: ["res"],
     static_libs: [
         "androidx.appcompat_appcompat",
+        "androidx.datastore_datastore-preferences",
         "androidx.preference_preference",
         "SettingsLibCollapsingToolbarBaseActivity",
     ],
