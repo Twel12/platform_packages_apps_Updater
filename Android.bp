@@ -1,6 +1,6 @@
 android_app {
     name: "Updater",
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.kt"],
     resource_dirs: ["res"],
     static_libs: [
         "androidx.appcompat_appcompat",
